@@ -58,3 +58,5 @@ class Character(pygame.sprite.Sprite):
                     self.aoe.radius
             ):
                 e.decreaseHealth(5)
+
+        self.sword.rect.midleft = self.rect.center

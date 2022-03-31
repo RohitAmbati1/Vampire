@@ -10,4 +10,4 @@ Blue = (0, 0, 255)
 Green = (0, 255, 0)
 Purple = (115, 0, 255)
 
-screen_size = (800, 500)
+screen_size = (1280, 720)

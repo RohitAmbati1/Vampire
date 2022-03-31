@@ -15,7 +15,6 @@ pygame.display.set_caption("Vampire")
 
 clock = pygame.time.Clock()
 
-
 def main():
     contenders = pygame.sprite.Group()
 
@@ -28,7 +27,7 @@ def main():
 
     blade = sword.Sword()
 
-    player = character.Character()
+    player = character.Character(blade)
 
     contenders.add(player)
 
